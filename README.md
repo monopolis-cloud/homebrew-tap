@@ -1,11 +1,20 @@
-# Monopolis-cloud Tap
+# Monopolis homebrew-tap
 
-## How do I install these formulae?
+This repo is a the official [tap](https://docs.brew.sh/Taps) for Monopolis-Cloud's installable software packages.
 
-`brew install monopolis-cloud/tap/<formula>`
+## Usage
 
-Or `brew tap monopolis-cloud/tap` and then `brew install <formula>`.
+Simply add this tap with:
 
-## Documentation
+```
+brew tap monopolis-cloud/tap
+```
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Packages Available
+
+You can download any of the following packages:
+
+```sh
+# Formulae
+brew install monopolis-cloud/tap/monopolis
+```
